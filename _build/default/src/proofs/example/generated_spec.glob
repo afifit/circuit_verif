@@ -1,0 +1,105 @@
+DIGEST f942c37871f310e98c2c48f4cda5a943
+Frefinedc.project.learning.src.example.generated_spec
+R36:41 refinedc.typing.typing <> <> lib
+R102:115 refinedc.project.learning.src.example.generated_code <> <> lib
+sec 197:200 <> spec
+R216:220 refinedc.typing.type <> typeG class
+binder 222:223 <> Σ:1
+binder 215:223 <> typeG0:2
+R229:235 refinedc.typing.globals <> globalG class
+R237:238 refinedc.project.learning.src.example.generated_spec <> Σ:1 var
+binder 228:238 <> globalG0:3
+def 327:338 <> type_of_add3
+R347:353 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R366:368 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R384:386 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R403:406 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R423:426 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R443:445 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R516:531 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R534:536 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R539:541 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R570:572 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R378:380 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R372:374 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R369:371 Coq.Init.Datatypes <> nat ind
+R375:377 Coq.Init.Datatypes <> nat ind
+R381:383 Coq.Init.Datatypes <> nat ind
+R354:354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R357:358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R361:362 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R365:365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 363:364 <> nz:4
+binder 359:360 <> ny:5
+binder 355:356 <> nx:6
+binder 354:365 <> pat:7
+R537:538 Coq.Program.Syntax <> ::type_scope:'()' not
+R389:392 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R402:402 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R393:395 refinedc.typing.int <> int def
+R398:400 caesium.int_type <> u32 def
+R387:388 refinedc.project.learning.src.example.generated_spec <> nx:6 var
+R409:412 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R422:422 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R413:415 refinedc.typing.int <> int def
+R418:420 caesium.int_type <> u32 def
+R407:408 refinedc.project.learning.src.example.generated_spec <> ny:5 var
+R429:432 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R442:442 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R433:435 refinedc.typing.int <> int def
+R438:440 caesium.int_type <> u32 def
+R427:428 refinedc.project.learning.src.example.generated_spec <> nz:4 var
+R475:479 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R446:448 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R472:474 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R456:460 stdpp.numbers <> ::Z_scope:x_'≤'_x not
+R451:453 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R449:450 refinedc.project.learning.src.example.generated_spec <> nx:6 var
+R454:455 refinedc.project.learning.src.example.generated_spec <> ny:5 var
+R461:467 caesium.int_type <> max_int def
+R469:471 caesium.int_type <> u32 def
+R480:482 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R513:515 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R497:501 stdpp.numbers <> ::Z_scope:x_'≤'_x not
+R483:483 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R491:494 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R486:488 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R484:485 refinedc.project.learning.src.example.generated_spec <> nx:6 var
+R489:490 refinedc.project.learning.src.example.generated_spec <> ny:5 var
+R495:496 refinedc.project.learning.src.example.generated_spec <> nz:4 var
+R502:508 caesium.int_type <> max_int def
+R510:512 caesium.int_type <> u32 def
+R532:533 Coq.Program.Syntax <> :::'()' not
+binder 532:533 <> pat:8
+R542:542 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R555:559 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R569:569 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R560:562 refinedc.typing.int <> int def
+R565:567 caesium.int_type <> u32 def
+R550:552 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R545:547 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R543:544 refinedc.project.learning.src.example.generated_spec <> nx:6 var
+R548:549 refinedc.project.learning.src.example.generated_spec <> ny:5 var
+R553:554 refinedc.project.learning.src.example.generated_spec <> nz:4 var
+R573:576 iris.bi.interface <> ::bi_scope:'True' not
+def 637:648 <> type_of_main
+R657:663 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R666:668 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R671:672 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R677:686 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R689:691 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R694:696 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R714:716 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R669:670 Coq.Program.Syntax <> ::type_scope:'()' not
+R664:665 Coq.Program.Syntax <> :::'()' not
+binder 664:665 <> pat:9
+R692:693 Coq.Program.Syntax <> ::type_scope:'()' not
+R673:676 iris.bi.interface <> ::bi_scope:'True' not
+R687:688 Coq.Program.Syntax <> :::'()' not
+binder 687:688 <> pat:10
+R700:703 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R713:713 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R704:706 refinedc.typing.int <> int def
+R709:711 caesium.int_type <> i32 def
+R717:720 iris.bi.interface <> ::bi_scope:'True' not
+R727:730 refinedc.project.learning.src.example.generated_spec spec <> sec

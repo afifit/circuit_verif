@@ -1,0 +1,508 @@
+DIGEST bd91aa553938c71ca6e3f098a562aaf3
+Frefinedc.project.learning.src.example.generated_code
+R28:35 caesium.notation <> <> lib
+R66:72 caesium.tactics <> <> lib
+R111:121 refinedc.typing.annotations <> <> lib
+sec 203:206 <> code
+def 222:227 <> file_0
+R231:236 Coq.Strings.String <> string ind
+def 271:275 <> loc_2
+R279:291 caesium.notation <> location_info ind
+R296:307 caesium.notation <> LocationInfo constr
+R309:314 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 339:343 <> loc_3
+R347:359 caesium.notation <> location_info ind
+R364:375 caesium.notation <> LocationInfo constr
+R377:382 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 407:411 <> loc_4
+R415:427 caesium.notation <> location_info ind
+R432:443 caesium.notation <> LocationInfo constr
+R445:450 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 475:479 <> loc_5
+R483:495 caesium.notation <> location_info ind
+R500:511 caesium.notation <> LocationInfo constr
+R513:518 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 543:547 <> loc_6
+R551:563 caesium.notation <> location_info ind
+R568:579 caesium.notation <> LocationInfo constr
+R581:586 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 611:615 <> loc_7
+R619:631 caesium.notation <> location_info ind
+R636:647 caesium.notation <> LocationInfo constr
+R649:654 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 680:684 <> loc_8
+R688:700 caesium.notation <> location_info ind
+R705:716 caesium.notation <> LocationInfo constr
+R718:723 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 749:753 <> loc_9
+R757:769 caesium.notation <> location_info ind
+R774:785 caesium.notation <> LocationInfo constr
+R787:792 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 818:823 <> loc_10
+R827:839 caesium.notation <> location_info ind
+R844:855 caesium.notation <> LocationInfo constr
+R857:862 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 888:893 <> loc_11
+R897:909 caesium.notation <> location_info ind
+R914:925 caesium.notation <> LocationInfo constr
+R927:932 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 958:963 <> loc_12
+R967:979 caesium.notation <> location_info ind
+R984:995 caesium.notation <> LocationInfo constr
+R997:1002 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1028:1033 <> loc_13
+R1037:1049 caesium.notation <> location_info ind
+R1054:1065 caesium.notation <> LocationInfo constr
+R1067:1072 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1098:1103 <> loc_18
+R1107:1119 caesium.notation <> location_info ind
+R1124:1135 caesium.notation <> LocationInfo constr
+R1137:1142 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1169:1174 <> loc_19
+R1178:1190 caesium.notation <> location_info ind
+R1195:1206 caesium.notation <> LocationInfo constr
+R1208:1213 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1240:1245 <> loc_20
+R1249:1261 caesium.notation <> location_info ind
+R1266:1277 caesium.notation <> LocationInfo constr
+R1279:1284 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1311:1316 <> loc_21
+R1320:1332 caesium.notation <> location_info ind
+R1337:1348 caesium.notation <> LocationInfo constr
+R1350:1355 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1382:1387 <> loc_22
+R1391:1403 caesium.notation <> location_info ind
+R1408:1419 caesium.notation <> LocationInfo constr
+R1421:1426 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1453:1458 <> loc_23
+R1462:1474 caesium.notation <> location_info ind
+R1479:1490 caesium.notation <> LocationInfo constr
+R1492:1497 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1524:1529 <> loc_24
+R1533:1545 caesium.notation <> location_info ind
+R1550:1561 caesium.notation <> LocationInfo constr
+R1563:1568 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1595:1600 <> loc_25
+R1604:1616 caesium.notation <> location_info ind
+R1621:1632 caesium.notation <> LocationInfo constr
+R1634:1639 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1666:1671 <> loc_26
+R1675:1687 caesium.notation <> location_info ind
+R1692:1703 caesium.notation <> LocationInfo constr
+R1705:1710 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1737:1742 <> loc_27
+R1746:1758 caesium.notation <> location_info ind
+R1763:1774 caesium.notation <> LocationInfo constr
+R1776:1781 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1809:1814 <> loc_28
+R1818:1830 caesium.notation <> location_info ind
+R1835:1846 caesium.notation <> LocationInfo constr
+R1848:1853 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1879:1884 <> loc_29
+R1888:1900 caesium.notation <> location_info ind
+R1905:1916 caesium.notation <> LocationInfo constr
+R1918:1923 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 1950:1955 <> loc_30
+R1959:1971 caesium.notation <> location_info ind
+R1976:1987 caesium.notation <> LocationInfo constr
+R1989:1994 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2021:2026 <> loc_31
+R2030:2042 caesium.notation <> location_info ind
+R2047:2058 caesium.notation <> LocationInfo constr
+R2060:2065 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2092:2097 <> loc_32
+R2101:2113 caesium.notation <> location_info ind
+R2118:2129 caesium.notation <> LocationInfo constr
+R2131:2136 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2164:2169 <> loc_33
+R2173:2185 caesium.notation <> location_info ind
+R2190:2201 caesium.notation <> LocationInfo constr
+R2203:2208 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2236:2241 <> loc_34
+R2245:2257 caesium.notation <> location_info ind
+R2262:2273 caesium.notation <> LocationInfo constr
+R2275:2280 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2308:2313 <> loc_35
+R2317:2329 caesium.notation <> location_info ind
+R2334:2345 caesium.notation <> LocationInfo constr
+R2347:2352 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2380:2385 <> loc_36
+R2389:2401 caesium.notation <> location_info ind
+R2406:2417 caesium.notation <> LocationInfo constr
+R2419:2424 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2452:2457 <> loc_37
+R2461:2473 caesium.notation <> location_info ind
+R2478:2489 caesium.notation <> LocationInfo constr
+R2491:2496 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2524:2529 <> loc_38
+R2533:2545 caesium.notation <> location_info ind
+R2550:2561 caesium.notation <> LocationInfo constr
+R2563:2568 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2595:2600 <> loc_39
+R2604:2616 caesium.notation <> location_info ind
+R2621:2632 caesium.notation <> LocationInfo constr
+R2634:2639 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2666:2671 <> loc_40
+R2675:2687 caesium.notation <> location_info ind
+R2692:2703 caesium.notation <> LocationInfo constr
+R2705:2710 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2737:2742 <> loc_41
+R2746:2758 caesium.notation <> location_info ind
+R2763:2774 caesium.notation <> LocationInfo constr
+R2776:2781 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2809:2814 <> loc_42
+R2818:2830 caesium.notation <> location_info ind
+R2835:2846 caesium.notation <> LocationInfo constr
+R2848:2853 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2879:2884 <> loc_43
+R2888:2900 caesium.notation <> location_info ind
+R2905:2916 caesium.notation <> LocationInfo constr
+R2918:2923 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 2950:2955 <> loc_44
+R2959:2971 caesium.notation <> location_info ind
+R2976:2987 caesium.notation <> LocationInfo constr
+R2989:2994 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 3021:3026 <> loc_45
+R3030:3042 caesium.notation <> location_info ind
+R3047:3058 caesium.notation <> LocationInfo constr
+R3060:3065 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 3092:3097 <> loc_46
+R3101:3113 caesium.notation <> location_info ind
+R3118:3129 caesium.notation <> LocationInfo constr
+R3131:3136 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 3164:3169 <> loc_47
+R3173:3185 caesium.notation <> location_info ind
+R3190:3201 caesium.notation <> LocationInfo constr
+R3203:3208 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 3236:3241 <> loc_48
+R3245:3257 caesium.notation <> location_info ind
+R3262:3273 caesium.notation <> LocationInfo constr
+R3275:3280 refinedc.project.learning.src.example.generated_code <> file_0 def
+def 3348:3356 <> impl_add3
+R3360:3367 caesium.lang <> function rec
+R3379:3384 caesium.lang <> f_args proj
+R3379:3384 caesium.lang <> f_args proj
+R3379:3384 caesium.lang <> f_args proj
+R3485:3496 caesium.lang <> f_local_vars proj
+R3485:3496 caesium.lang <> f_local_vars proj
+R3541:3546 caesium.lang <> f_init proj
+R3541:3546 caesium.lang <> f_init proj
+R3561:3566 caesium.lang <> f_code proj
+R3561:3566 caesium.lang <> f_code proj
+R3389:3396 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3417:3424 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3445:3452 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3473:3478 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3397:3397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3401:3402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3416:3416 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3403:3411 caesium.int_type <> it_layout def
+R3413:3415 caesium.int_type <> u32 def
+R3425:3425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3429:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3444:3444 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3439 caesium.int_type <> it_layout def
+R3441:3443 caesium.int_type <> u32 def
+R3453:3453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3457:3458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3472:3472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3459:3467 caesium.int_type <> it_layout def
+R3469:3471 caesium.int_type <> u32 def
+R3501:3508 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3529:3534 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3509:3509 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3513:3514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3528:3528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3515:3523 caesium.int_type <> it_layout def
+R3525:3527 caesium.int_type <> u32 def
+R3994:3995 stdpp.base <> ::stdpp_scope:x_'$'_x not
+R3996:3998 stdpp.base <> ::stdpp_scope:'∅' not
+R3579:3581 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R3586:3597 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R3985:3993 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R3601:3605 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R3615:3627 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R3786:3796 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R3606:3610 caesium.struct <> IntOp constr
+R3612:3614 caesium.int_type <> u32 def
+R3628:3635 caesium.notation <> LocInfoE syndef
+R3644:3644 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3701:3704 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3714:3715 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3725:3727 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3784:3784 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3705:3709 caesium.struct <> IntOp constr
+R3711:3713 caesium.int_type <> u32 def
+R3716:3720 caesium.struct <> IntOp constr
+R3722:3724 caesium.int_type <> u32 def
+R3645:3652 caesium.notation <> LocInfoE syndef
+R3662:3665 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3675:3677 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3699:3699 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3666:3670 caesium.struct <> IntOp constr
+R3672:3674 caesium.int_type <> u32 def
+R3678:3685 caesium.notation <> LocInfoE syndef
+R3687:3692 refinedc.project.learning.src.example.generated_code <> loc_11 def
+R3654:3659 refinedc.project.learning.src.example.generated_code <> loc_10 def
+R3728:3735 caesium.notation <> LocInfoE syndef
+R3745:3748 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3758:3760 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3782:3782 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3749:3753 caesium.struct <> IntOp constr
+R3755:3757 caesium.int_type <> u32 def
+R3761:3768 caesium.notation <> LocInfoE syndef
+R3770:3775 refinedc.project.learning.src.example.generated_code <> loc_13 def
+R3737:3742 refinedc.project.learning.src.example.generated_code <> loc_12 def
+R3637:3641 refinedc.project.learning.src.example.generated_code <> loc_9 def
+R3797:3805 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R3811:3821 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R3806:3810 refinedc.project.learning.src.example.generated_code <> loc_3 def
+R3822:3827 caesium.lang <> Return constr
+R3830:3837 caesium.notation <> LocInfoE syndef
+R3846:3846 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3901:3904 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3914:3915 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3925:3927 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3982:3982 caesium.notation <> ::expr_scope:x_'+'_'{'_x_','_x_'}'_x not
+R3905:3909 caesium.struct <> IntOp constr
+R3911:3913 caesium.int_type <> u32 def
+R3916:3920 caesium.struct <> IntOp constr
+R3922:3924 caesium.int_type <> u32 def
+R3847:3854 caesium.notation <> LocInfoE syndef
+R3863:3866 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3876:3878 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3899:3899 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3867:3871 caesium.struct <> IntOp constr
+R3873:3875 caesium.int_type <> u32 def
+R3879:3886 caesium.notation <> LocInfoE syndef
+R3888:3892 refinedc.project.learning.src.example.generated_code <> loc_6 def
+R3856:3860 refinedc.project.learning.src.example.generated_code <> loc_5 def
+R3928:3935 caesium.notation <> LocInfoE syndef
+R3944:3947 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3957:3959 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3980:3980 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R3948:3952 caesium.struct <> IntOp constr
+R3954:3956 caesium.int_type <> u32 def
+R3960:3967 caesium.notation <> LocInfoE syndef
+R3969:3973 refinedc.project.learning.src.example.generated_code <> loc_8 def
+R3937:3941 refinedc.project.learning.src.example.generated_code <> loc_7 def
+R3839:3843 refinedc.project.learning.src.example.generated_code <> loc_4 def
+def 4067:4075 <> impl_main
+R4092:4094 caesium.loc <> loc def
+binder 4078:4088 <> global_add3:1
+R4098:4105 caesium.lang <> function rec
+R4117:4122 caesium.lang <> f_args proj
+R4117:4122 caesium.lang <> f_args proj
+R4117:4122 caesium.lang <> f_args proj
+R4140:4151 caesium.lang <> f_local_vars proj
+R4140:4151 caesium.lang <> f_local_vars proj
+R4196:4201 caesium.lang <> f_init proj
+R4196:4201 caesium.lang <> f_init proj
+R4216:4221 caesium.lang <> f_code proj
+R4216:4221 caesium.lang <> f_code proj
+R4127:4133 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R4156:4163 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4184:4189 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4164:4164 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4168:4169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4183:4183 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4170:4178 caesium.int_type <> it_layout def
+R4180:4182 caesium.int_type <> u32 def
+R5488:5489 stdpp.base <> ::stdpp_scope:x_'$'_x not
+R5490:5492 stdpp.base <> ::stdpp_scope:'∅' not
+R4234:4236 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R4241:4252 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R5479:5487 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R4253:4261 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4268:4278 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4262:4267 refinedc.project.learning.src.example.generated_code <> loc_18 def
+R4300:4304 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R4314:4326 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R4674:4684 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R4305:4309 caesium.struct <> IntOp constr
+R4311:4313 caesium.int_type <> u32 def
+R4279:4286 caesium.notation <> LocInfoE syndef
+R4288:4293 refinedc.project.learning.src.example.generated_code <> loc_42 def
+R4327:4334 caesium.notation <> LocInfoE syndef
+R4344:4347 caesium.lang <> Call constr
+R4350:4357 caesium.notation <> LocInfoE syndef
+R4367:4377 refinedc.project.learning.src.example.generated_code <> global_add3:1 var
+R4359:4364 refinedc.project.learning.src.example.generated_code <> loc_45 def
+R4381:4383 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R4388:4389 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R4475:4487 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R4573:4585 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R4671:4672 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R4384:4387 caesium.lang <> expr ind
+R4390:4397 caesium.notation <> LocInfoE syndef
+R4407:4410 caesium.lang <> UnOp constr
+R4419:4421 stdpp.base <> ::stdpp_scope:x_'$'_x not
+R4422:4426 caesium.struct <> IntOp constr
+R4428:4430 caesium.int_type <> u32 def
+R4413:4418 caesium.lang <> CastOp constr
+R4434:4438 caesium.struct <> IntOp constr
+R4440:4442 caesium.int_type <> i32 def
+R4446:4453 caesium.notation <> LocInfoE syndef
+R4463:4465 caesium.val <> i2v def
+R4469:4471 caesium.int_type <> i32 def
+R4455:4460 refinedc.project.learning.src.example.generated_code <> loc_46 def
+R4399:4404 refinedc.project.learning.src.example.generated_code <> loc_46 def
+R4384:4387 caesium.lang <> expr ind
+R4488:4495 caesium.notation <> LocInfoE syndef
+R4505:4508 caesium.lang <> UnOp constr
+R4517:4519 stdpp.base <> ::stdpp_scope:x_'$'_x not
+R4520:4524 caesium.struct <> IntOp constr
+R4526:4528 caesium.int_type <> u32 def
+R4511:4516 caesium.lang <> CastOp constr
+R4532:4536 caesium.struct <> IntOp constr
+R4538:4540 caesium.int_type <> i32 def
+R4544:4551 caesium.notation <> LocInfoE syndef
+R4561:4563 caesium.val <> i2v def
+R4567:4569 caesium.int_type <> i32 def
+R4553:4558 refinedc.project.learning.src.example.generated_code <> loc_47 def
+R4497:4502 refinedc.project.learning.src.example.generated_code <> loc_47 def
+R4384:4387 caesium.lang <> expr ind
+R4586:4593 caesium.notation <> LocInfoE syndef
+R4603:4606 caesium.lang <> UnOp constr
+R4615:4617 stdpp.base <> ::stdpp_scope:x_'$'_x not
+R4618:4622 caesium.struct <> IntOp constr
+R4624:4626 caesium.int_type <> u32 def
+R4609:4614 caesium.lang <> CastOp constr
+R4630:4634 caesium.struct <> IntOp constr
+R4636:4638 caesium.int_type <> i32 def
+R4642:4649 caesium.notation <> LocInfoE syndef
+R4659:4661 caesium.val <> i2v def
+R4665:4667 caesium.int_type <> i32 def
+R4651:4656 refinedc.project.learning.src.example.generated_code <> loc_48 def
+R4595:4600 refinedc.project.learning.src.example.generated_code <> loc_48 def
+R4384:4387 caesium.lang <> expr ind
+R4336:4341 refinedc.project.learning.src.example.generated_code <> loc_43 def
+R4685:4693 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4700:4710 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4694:4699 refinedc.project.learning.src.example.generated_code <> loc_19 def
+R4711:4717 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R4727:4730 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R4866:4877 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R4718:4722 caesium.struct <> IntOp constr
+R4724:4726 caesium.int_type <> i32 def
+R4731:4738 caesium.notation <> LocInfoE syndef
+R4748:4748 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4805:4808 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4818:4819 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4829:4830 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4834:4836 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4864:4864 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R4831:4833 caesium.int_type <> i32 def
+R4809:4813 caesium.struct <> IntOp constr
+R4815:4817 caesium.int_type <> u32 def
+R4820:4824 caesium.struct <> IntOp constr
+R4826:4828 caesium.int_type <> u32 def
+R4749:4756 caesium.notation <> LocInfoE syndef
+R4766:4769 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R4779:4781 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R4803:4803 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R4770:4774 caesium.struct <> IntOp constr
+R4776:4778 caesium.int_type <> u32 def
+R4782:4789 caesium.notation <> LocInfoE syndef
+R4791:4796 refinedc.project.learning.src.example.generated_code <> loc_40 def
+R4758:4763 refinedc.project.learning.src.example.generated_code <> loc_39 def
+R4837:4844 caesium.notation <> LocInfoE syndef
+R4854:4856 caesium.val <> i2v def
+R4860:4862 caesium.int_type <> u32 def
+R4846:4851 refinedc.project.learning.src.example.generated_code <> loc_41 def
+R4740:4745 refinedc.project.learning.src.example.generated_code <> loc_38 def
+R4878:4886 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4893:4903 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R4887:4892 refinedc.project.learning.src.example.generated_code <> loc_20 def
+R4925:4929 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R4939:4951 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R5212:5222 caesium.notation <> ::expr_scope:x_'<-{'_x_'}'_x_';'_x not
+R4930:4934 caesium.struct <> IntOp constr
+R4936:4938 caesium.int_type <> u32 def
+R4904:4911 caesium.notation <> LocInfoE syndef
+R4913:4918 refinedc.project.learning.src.example.generated_code <> loc_28 def
+R4952:4959 caesium.notation <> LocInfoE syndef
+R4969:4972 caesium.lang <> Call constr
+R4975:4982 caesium.notation <> LocInfoE syndef
+R4992:5002 refinedc.project.learning.src.example.generated_code <> global_add3:1 var
+R4984:4989 refinedc.project.learning.src.example.generated_code <> loc_31 def
+R5006:5008 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R5013:5014 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R5071:5083 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R5140:5152 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R5209:5210 lithium.base <> ::list_scope:'[@{'_x_'}'_x_';'_x_';'_'..'_';'_x_']' not
+R5009:5012 caesium.lang <> expr ind
+R5015:5022 caesium.notation <> LocInfoE syndef
+R5032:5035 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5045:5047 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5069:5069 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5036:5040 caesium.struct <> IntOp constr
+R5042:5044 caesium.int_type <> u32 def
+R5048:5055 caesium.notation <> LocInfoE syndef
+R5057:5062 refinedc.project.learning.src.example.generated_code <> loc_33 def
+R5024:5029 refinedc.project.learning.src.example.generated_code <> loc_32 def
+R5009:5012 caesium.lang <> expr ind
+R5084:5091 caesium.notation <> LocInfoE syndef
+R5101:5104 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5114:5116 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5138:5138 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5105:5109 caesium.struct <> IntOp constr
+R5111:5113 caesium.int_type <> u32 def
+R5117:5124 caesium.notation <> LocInfoE syndef
+R5126:5131 refinedc.project.learning.src.example.generated_code <> loc_35 def
+R5093:5098 refinedc.project.learning.src.example.generated_code <> loc_34 def
+R5009:5012 caesium.lang <> expr ind
+R5153:5160 caesium.notation <> LocInfoE syndef
+R5170:5173 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5183:5185 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5207:5207 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5174:5178 caesium.struct <> IntOp constr
+R5180:5182 caesium.int_type <> u32 def
+R5186:5193 caesium.notation <> LocInfoE syndef
+R5195:5200 refinedc.project.learning.src.example.generated_code <> loc_37 def
+R5162:5167 refinedc.project.learning.src.example.generated_code <> loc_36 def
+R5009:5012 caesium.lang <> expr ind
+R4961:4966 refinedc.project.learning.src.example.generated_code <> loc_29 def
+R5223:5231 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R5238:5248 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R5232:5237 refinedc.project.learning.src.example.generated_code <> loc_21 def
+R5249:5255 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R5265:5268 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R5405:5416 caesium.notation <> ::expr_scope:'assert{'_x_'}'_':'_x_';'_x not
+R5256:5260 caesium.struct <> IntOp constr
+R5262:5264 caesium.int_type <> i32 def
+R5269:5276 caesium.notation <> LocInfoE syndef
+R5286:5286 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5343:5346 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5356:5357 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5367:5368 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5372:5374 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5403:5403 caesium.notation <> ::expr_scope:x_'='_'{'_x_','_x_','_x_'}'_x not
+R5369:5371 caesium.int_type <> i32 def
+R5347:5351 caesium.struct <> IntOp constr
+R5353:5355 caesium.int_type <> u32 def
+R5358:5362 caesium.struct <> IntOp constr
+R5364:5366 caesium.int_type <> u32 def
+R5287:5294 caesium.notation <> LocInfoE syndef
+R5304:5307 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5317:5319 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5341:5341 caesium.notation <> ::expr_scope:'use{'_x_'}'_x not
+R5308:5312 caesium.struct <> IntOp constr
+R5314:5316 caesium.int_type <> u32 def
+R5320:5327 caesium.notation <> LocInfoE syndef
+R5329:5334 refinedc.project.learning.src.example.generated_code <> loc_26 def
+R5296:5301 refinedc.project.learning.src.example.generated_code <> loc_25 def
+R5375:5382 caesium.notation <> LocInfoE syndef
+R5392:5394 caesium.val <> i2v def
+R5399:5401 caesium.int_type <> u32 def
+R5384:5389 refinedc.project.learning.src.example.generated_code <> loc_27 def
+R5278:5283 refinedc.project.learning.src.example.generated_code <> loc_24 def
+R5417:5425 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R5432:5442 caesium.notation <> ::expr_scope:'locinfo:'_x_';'_x not
+R5426:5431 refinedc.project.learning.src.example.generated_code <> loc_22 def
+R5443:5448 caesium.lang <> Return constr
+R5451:5458 caesium.notation <> LocInfoE syndef
+R5468:5470 caesium.val <> i2v def
+R5474:5476 caesium.int_type <> i32 def
+R5460:5465 refinedc.project.learning.src.example.generated_code <> loc_23 def
+R5512:5515 refinedc.project.learning.src.example.generated_code code <> sec

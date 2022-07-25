@@ -1,0 +1,70 @@
+DIGEST 06b51c82b40b420c8396b277e96d1cbf
+Frefinedc.project.learning.src.example.generated_proof_add3
+R36:41 refinedc.typing.typing <> <> lib
+R102:115 refinedc.project.learning.src.example.generated_code <> <> lib
+R176:189 refinedc.project.learning.src.example.generated_spec <> <> lib
+sec 271:280 <> proof_add3
+R296:300 refinedc.typing.type <> typeG class
+binder 302:303 <> Σ:1
+binder 295:303 <> typeG0:2
+R309:315 refinedc.typing.globals <> globalG class
+R317:318 refinedc.project.learning.src.example.generated_proof_add3 <> Σ:1 var
+binder 308:318 <> globalG0:3
+prf 364:372 <> type_add3
+R380:383 iris.bi.interface <> ::stdpp_scope:'⊢'_x not
+R384:397 refinedc.typing.function <> typed_function def
+R399:407 refinedc.project.learning.src.example.generated_code <> impl_add3 def
+R409:420 refinedc.project.learning.src.example.generated_spec <> type_of_add3 def
+R606:608 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R609:612 stdpp.gmap <> gmap rec
+R621:625 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R627:628 refinedc.project.learning.src.example.generated_proof_add3 <> proof_add3.Σ var
+R614:618 caesium.lang <> label def
+R595:597 stdpp.base <> ::stdpp_scope:'∅' not
+R652:654 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R655:658 stdpp.gmap <> gmap rec
+R667:671 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R673:674 refinedc.project.learning.src.example.generated_proof_add3 <> proof_add3.Σ var
+R660:664 caesium.lang <> label def
+R641:643 stdpp.base <> ::stdpp_scope:'∅' not
+R606:608 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R609:612 stdpp.gmap <> gmap rec
+R621:625 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R627:628 refinedc.project.learning.src.example.generated_proof_add3 <> proof_add3.Σ var
+R614:618 caesium.lang <> label def
+R595:597 stdpp.base <> ::stdpp_scope:'∅' not
+R652:654 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R655:658 stdpp.gmap <> gmap rec
+R667:671 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R673:674 refinedc.project.learning.src.example.generated_proof_add3 <> proof_add3.Σ var
+R660:664 caesium.lang <> label def
+R641:643 stdpp.base <> ::stdpp_scope:'∅' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R2633:2635 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2636:2651 refinedc.typing.automation.proof_state <> CURRENT_LOCATION def
+R2653:2653 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2656:2656 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2658:2661 Coq.Init.Datatypes <> true constr
+R2631:2632 Coq.Program.Syntax <> :::'()' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R983:992 stdpp.base <> inhabitant meth
+R1043:1052 refinedc.project.learning.src.example.generated_proof_add3 proof_add3 <> sec
