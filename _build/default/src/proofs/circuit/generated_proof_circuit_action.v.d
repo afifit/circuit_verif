@@ -1,0 +1,2 @@
+generated_proof_circuit_action.vo generated_proof_circuit_action.glob generated_proof_circuit_action.v.beautified generated_proof_circuit_action.required_vo: generated_proof_circuit_action.v ./generated_code.vo ./generated_spec.vo
+generated_proof_circuit_action.vio: generated_proof_circuit_action.v ./generated_code.vio ./generated_spec.vio

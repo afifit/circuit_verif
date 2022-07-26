@@ -1,4 +1,4 @@
-DIGEST 9bf8f2e5b3b301485e5c95042adc140d
+DIGEST 6d00efc2100a581798e313859d255777
 Frefinedc.project.learning.src.circuit.generated_spec
 R36:41 refinedc.typing.typing <> <> lib
 R102:115 refinedc.project.learning.src.circuit.generated_code <> <> lib
@@ -497,4 +497,61 @@ R3498:3498 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
 R3495:3495 refinedc.project.learning.src.circuit.generated_spec <> a:50 var
 R3497:3497 refinedc.project.learning.src.circuit.generated_spec <> x:48 var
 R3484:3484 refinedc.project.learning.src.circuit.generated_spec <> p:47 var
-R3562:3565 refinedc.project.learning.src.circuit.generated_spec spec <> sec
+def 3583:3604 <> type_of_circuit_action
+R3613:3619 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3629:3631 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3649:3651 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3683:3685 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3690:3705 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3712:3714 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3726:3728 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3733:3736 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3765:3765 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R3643:3645 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3636:3638 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3632:3635 Coq.Init.Datatypes <> bool ind
+R3639:3642 Coq.Init.Datatypes <> bool ind
+R3646:3648 caesium.loc <> loc def
+R3620:3620 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3622:3623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3625:3626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3628:3628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 3627:3627 <> p:53
+binder 3624:3624 <> b:54
+binder 3621:3621 <> a:55
+binder 3620:3628 <> pat:56
+R3719:3721 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3715:3718 Coq.Init.Datatypes <> bool ind
+R3722:3725 Coq.Init.Datatypes <> bool ind
+R3653:3656 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3682:3682 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3657:3681 refinedc.typing.own <> ::bi_scope:'&own' not
+R3669:3672 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3680:3680 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3673:3679 refinedc.project.learning.src.circuit.generated_spec <> circuit def
+R3663:3663 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3665:3666 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3668:3668 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3664:3664 refinedc.project.learning.src.circuit.generated_spec <> a:55 var
+R3667:3667 refinedc.project.learning.src.circuit.generated_spec <> b:54 var
+R3652:3652 refinedc.project.learning.src.circuit.generated_spec <> p:53 var
+R3686:3689 iris.bi.interface <> ::bi_scope:'True' not
+R3706:3706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3708:3709 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3711:3711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 3710:3710 <> y:57
+binder 3707:3707 <> x:58
+binder 3706:3711 <> pat:59
+R3729:3732 refinedc.typing.bytes <> void def
+R3738:3746 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R3764:3764 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R3752:3755 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3763:3763 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R3756:3762 refinedc.project.learning.src.circuit.generated_spec <> circuit def
+R3747:3747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3749:3749 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3751:3751 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3748:3748 refinedc.project.learning.src.circuit.generated_spec <> x:58 var
+R3750:3750 refinedc.project.learning.src.circuit.generated_spec <> y:57 var
+R3737:3737 refinedc.project.learning.src.circuit.generated_spec <> p:53 var
+R3815:3818 refinedc.project.learning.src.circuit.generated_spec spec <> sec

@@ -1,10 +1,9 @@
 # dune build --display=short
 # OCAMLPARAM: unset
 # Shared cache: disabled
-# Workspace root: /home/dorco/refinedc-projects/learning
-# Auto-detected concurrency: 16
-$ /home/dorco/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_c0f6fa_output
-> ERROR: ld.so: object '/usr/local/lib/AppProtection/libAppProtection.so' from /etc/ld.so.preload cannot be preloaded (cannot open shared object file): ignored.
+# Workspace root: /home/dor/refinedc-projects/circuit_verif
+# Auto-detected concurrency: 8
+$ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_9294a5_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -14,42 +13,41 @@ $ /home/dorco/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_c0f6fa_
 #  ; fdo_target_exe = None
 #  ; build_dir = "default"
 #  ; toplevel_path =
-#      Some External "/home/dorco/.opam/refinedc-projects/lib/toplevel"
-#  ; ocaml_bin = External "/home/dorco/.opam/refinedc-projects/bin"
-#  ; ocaml = Ok External "/home/dorco/.opam/refinedc-projects/bin/ocaml"
-#  ; ocamlc = External "/home/dorco/.opam/refinedc-projects/bin/ocamlc.opt"
+#      Some External "/home/dor/.opam/refinedc-projects/lib/toplevel"
+#  ; ocaml_bin = External "/home/dor/.opam/refinedc-projects/bin"
+#  ; ocaml = Ok External "/home/dor/.opam/refinedc-projects/bin/ocaml"
+#  ; ocamlc = External "/home/dor/.opam/refinedc-projects/bin/ocamlc.opt"
 #  ; ocamlopt =
-#      Ok External "/home/dorco/.opam/refinedc-projects/bin/ocamlopt.opt"
+#      Ok External "/home/dor/.opam/refinedc-projects/bin/ocamlopt.opt"
 #  ; ocamldep =
-#      Ok External "/home/dorco/.opam/refinedc-projects/bin/ocamldep.opt"
+#      Ok External "/home/dor/.opam/refinedc-projects/bin/ocamldep.opt"
 #  ; ocamlmklib =
-#      Ok External "/home/dorco/.opam/refinedc-projects/bin/ocamlmklib.opt"
+#      Ok External "/home/dor/.opam/refinedc-projects/bin/ocamlmklib.opt"
 #  ; env =
 #      map
-#        { "DUNE_OCAML_HARDCODED" : "/home/dorco/.opam/refinedc-projects/lib"
-#        ; "DUNE_OCAML_STDLIB" :
-#            "/home/dorco/.opam/refinedc-projects/lib/ocaml"
-#        ; "DUNE_SOURCEROOT" : "/home/dorco/refinedc-projects/learning"
+#        { "DUNE_OCAML_HARDCODED" : "/home/dor/.opam/refinedc-projects/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/dor/.opam/refinedc-projects/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/dor/refinedc-projects/circuit_verif"
 #        ; "INSIDE_DUNE" :
-#            "/home/dorco/refinedc-projects/learning/_build/default"
+#            "/home/dor/refinedc-projects/circuit_verif/_build/default"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
-#            "/home/dorco/refinedc-projects/learning/_build/install/default/lib"
+#            "/home/dor/refinedc-projects/circuit_verif/_build/install/default/lib"
 #        ; "OCAMLPATH" :
-#            "/home/dorco/refinedc-projects/learning/_build/install/default/lib"
+#            "/home/dor/refinedc-projects/circuit_verif/_build/install/default/lib"
 #        ; "OCAMLTOP_INCLUDE_PATH" :
-#            "/home/dorco/refinedc-projects/learning/_build/install/default/lib/toplevel"
+#            "/home/dor/refinedc-projects/circuit_verif/_build/install/default/lib/toplevel"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OPAMCOLOR" : "always"
 #        }
-#  ; findlib_paths = [ External "/home/dorco/.opam/refinedc-projects/lib" ]
+#  ; findlib_paths = [ External "/home/dor/.opam/refinedc-projects/lib" ]
 #  ; arch_sixtyfour = true
 #  ; natdynlink_supported = true
 #  ; supports_shared_libraries = true
 #  ; ocaml_config =
 #      { version = "4.11.1"
 #      ; standard_library_default =
-#          "/home/dorco/.opam/refinedc-projects/lib/ocaml"
-#      ; standard_library = "/home/dorco/.opam/refinedc-projects/lib/ocaml"
+#          "/home/dor/.opam/refinedc-projects/lib/ocaml"
+#      ; standard_library = "/home/dor/.opam/refinedc-projects/lib/ocaml"
 #      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
 #      ; ccomp_type = "cc"
 #      ; c_compiler = "gcc"
@@ -117,7 +115,12 @@ $ /home/dorco/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_c0f6fa_
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default/src/proofs/circuit && /home/dorco/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.circuit -dyndep opt generated_proof_set_two.v) > _build/default/src/proofs/circuit/generated_proof_set_two.v.d
-> ERROR: ld.so: object '/usr/local/lib/AppProtection/libAppProtection.so' from /etc/ld.so.preload cannot be preloaded (cannot open shared object file): ignored.
-$ (cd _build/default && /home/dorco/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_set_two.v)
-> ERROR: ld.so: object '/usr/local/lib/AppProtection/libAppProtection.so' from /etc/ld.so.preload cannot be preloaded (cannot open shared object file): ignored.
+$ (cd _build/default/src/proofs/circuit && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.circuit -dyndep opt generated_code.v) > _build/default/src/proofs/circuit/generated_code.v.d
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_code.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_spec.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_assert_circuit.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_check_two.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_check_one.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_set_two.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_set_one.v)
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/circuit refinedc.project.learning.src.circuit src/proofs/circuit/generated_proof_circuit_action.v)

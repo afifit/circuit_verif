@@ -1,9 +1,13 @@
 #include <stdbool.h>
 
 
+/*
+    A simple circuit program with the safety requirement of 
+    both switches (one and two) must never be true at the same time.
+*/
+
 typedef struct 
 [[rc::refined_by("a: bool", "b: bool")]]
-// [[rc::constraints("{not (a && b)}")]]
 [[rc::constraints("{~(and (Is_true a) (Is_true b))}")]]
 circuit {
     [[rc::field("a @ builtin_boolean")]]
@@ -50,20 +54,23 @@ void set_two(circuit* c, bool v){
         c->two = v;
 }
 
-// [[rc::parameters("a: bool", "b: bool", "p: loc")]]
-// [[rc::args("p @ &own<{a, b} @ circuit>")]]
-// [[rc::exists("x : bool")]]
-// [[rc::exists("y : bool")]]
-// [[rc::ensures("own p : {x,y} @ circuit")]]
-// void action(circuit* c){
-//      if(!check_two(c)){
-//         set_one(c, true);
-//      }
-     
-//      set_one(c,false);
 
-//      set_two(c,true);
-// }
+
+[[rc::parameters("a: bool", "b: bool", "p: loc")]]
+[[rc::args("p @ &own<{a, b} @ circuit>")]]
+[[rc::exists("x : bool")]]
+[[rc::exists("y : bool")]]
+[[rc::ensures("own p : {x,y} @ circuit")]]
+void circuit_action(circuit* c){
+     if(!check_two(c)){
+        set_one(c, true);
+     }
+     
+     set_one(c,false);
+
+     set_two(c,true);
+     set_two(c,false);
+}
 
 int main(){
     return 0;

@@ -83,6 +83,11 @@ Section spec.
     fn(∀ (a, b, x, p) : bool * bool * bool * loc; (p @ (&own ((a, b) @ (circuit)))), (x @ (builtin_boolean)); ⌜~(and (Is_true x) (Is_true a))⌝)
       → ∃ () : (), (void); (p ◁ₗ ((a,x) @ (circuit))).
 
+  (* Specifications for function [circuit_action]. *)
+  Definition type_of_circuit_action :=
+    fn(∀ (a, b, p) : bool * bool * loc; (p @ (&own ((a, b) @ (circuit)))); True)
+      → ∃ (x, y) : bool * bool, (void); (p ◁ₗ ((x,y) @ (circuit))).
+
   (* Function [main] has been skipped. *)
 End spec.
 
