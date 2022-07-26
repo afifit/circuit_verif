@@ -1,7 +1,9 @@
 generated_proof_assert_circuit.v
+generated_proof_bar.v
 generated_proof_check_one.v
 generated_proof_check_two.v
 generated_proof_circuit_action.v
+generated_proof_foo.v
 generated_proof_main.v
 generated_proof_set_one.v
 generated_proof_set_two.v

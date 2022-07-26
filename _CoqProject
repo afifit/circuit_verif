@@ -3,3 +3,4 @@
 -arg -w -arg -redundant-canonical-projection
 -Q _build/default/src/proofs/example refinedc.project.learning.src.example
 -Q _build/default/src/proofs/circuit refinedc.project.learning.src.circuit
+-Q _build/default/src/proofs/solswitch refinedc.project.learning.src.solswitch

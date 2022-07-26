@@ -1,0 +1,83 @@
+DIGEST a90b873305f042149e5a993c20f03ce7
+Frefinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid
+R36:41 refinedc.typing.typing <> <> lib
+R104:117 refinedc.project.learning.src.solswitch.generated_code <> <> lib
+R180:193 refinedc.project.learning.src.solswitch.generated_spec <> <> lib
+sec 277:303 <> proof_SML_switchTheSolenoid
+R319:323 refinedc.typing.type <> typeG class
+binder 325:326 <> Σ:1
+binder 318:326 <> typeG0:2
+R332:338 refinedc.typing.globals <> globalG class
+R340:341 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid <> Σ:1 var
+binder 331:341 <> globalG0:3
+prf 404:429 <> type_SML_switchTheSolenoid
+R437:440 iris.bi.interface <> ::stdpp_scope:'⊢'_x not
+R441:454 refinedc.typing.function <> typed_function def
+R456:481 refinedc.project.learning.src.solswitch.generated_code <> impl_SML_switchTheSolenoid def
+R483:511 refinedc.project.learning.src.solswitch.generated_spec <> type_of_SML_switchTheSolenoid def
+R702:704 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R705:708 stdpp.gmap <> gmap rec
+R717:721 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R723:724 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid <> proof_SML_switchTheSolenoid.Σ var
+R710:714 caesium.lang <> label def
+R691:693 stdpp.base <> ::stdpp_scope:'∅' not
+R748:750 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R751:754 stdpp.gmap <> gmap rec
+R763:767 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R769:770 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid <> proof_SML_switchTheSolenoid.Σ var
+R756:760 caesium.lang <> label def
+R737:739 stdpp.base <> ::stdpp_scope:'∅' not
+R702:704 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R705:708 stdpp.gmap <> gmap rec
+R717:721 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R723:724 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid <> proof_SML_switchTheSolenoid.Σ var
+R710:714 caesium.lang <> label def
+R691:693 stdpp.base <> ::stdpp_scope:'∅' not
+R748:750 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R751:754 stdpp.gmap <> gmap rec
+R763:767 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R769:770 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid <> proof_SML_switchTheSolenoid.Σ var
+R756:760 caesium.lang <> label def
+R737:739 stdpp.base <> ::stdpp_scope:'∅' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R2528:2530 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2531:2546 refinedc.typing.automation.proof_state <> CURRENT_LOCATION def
+R2548:2548 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2551:2551 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2553:2556 Coq.Init.Datatypes <> true constr
+R2526:2527 Coq.Program.Syntax <> :::'()' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R2834:2837 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2874:2874 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2838:2858 refinedc.typing.automation.proof_state <> CASE_DISTINCTION_INFO def
+R2832:2833 Coq.Program.Syntax <> :::'()' not
+R2834:2837 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2874:2874 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2838:2858 refinedc.typing.automation.proof_state <> CASE_DISTINCTION_INFO def
+R2832:2833 Coq.Program.Syntax <> :::'()' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R1161:1170 stdpp.base <> inhabitant meth
+R1238:1264 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid proof_SML_switchTheSolenoid <> sec

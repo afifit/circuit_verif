@@ -88,6 +88,15 @@ Section spec.
     fn(∀ (a, b, p) : bool * bool * loc; (p @ (&own ((a, b) @ (circuit)))); True)
       → ∃ (x, y) : bool * bool, (void); (p ◁ₗ ((x,y) @ (circuit))).
 
+  (* Specifications for function [foo]. *)
+  Definition type_of_foo :=
+    fn(∀ (a1, b1, p1, a2, b2, p2) : bool * bool * loc * bool * bool * loc; (p1 @ (&own ((a1, b1) @ (circuit)))), (p2 @ (&own ((a2, b2) @ (circuit)))); True)
+      → ∃ (x1, x2, y1, y2) : bool * bool * bool * bool, (void); (p1 ◁ₗ ((x1,y1) @ (circuit))) ∗ (p2 ◁ₗ ((x2,y2) @ (circuit))).
+
+  (* Specifications for function [bar]. *)
+  Definition type_of_bar :=
+    fn(∀ () : (); True) → ∃ () : (), (void); ⌜True⌝.
+
   (* Function [main] has been skipped. *)
 End spec.
 

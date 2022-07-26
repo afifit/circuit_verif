@@ -1,9 +1,8 @@
 #include <stdbool.h>
 
-
 /*
     A simple circuit program with the safety requirement of 
-    both switches (one and two) must never be true at the same time.
+    both switches (switch one and switch two) must never be true at the same time.
 */
 
 typedef struct 
@@ -55,7 +54,6 @@ void set_two(circuit* c, bool v){
 }
 
 
-
 [[rc::parameters("a: bool", "b: bool", "p: loc")]]
 [[rc::args("p @ &own<{a, b} @ circuit>")]]
 [[rc::exists("x : bool")]]
@@ -72,6 +70,32 @@ void circuit_action(circuit* c){
      set_two(c,false);
 }
 
+
+[[rc::parameters("a1: bool", "b1: bool", "p1: loc")]]
+[[rc::parameters("a2: bool", "b2: bool", "p2: loc")]]
+[[rc::args("p1 @ &own<{a1, b1} @ circuit>")]]
+[[rc::args("p2 @ &own<{a2, b2} @ circuit>")]]
+[[rc::exists("x1 : bool")]]
+[[rc::exists("x2 : bool")]]
+[[rc::exists("y1 : bool")]]
+[[rc::exists("y2 : bool")]]
+[[rc::ensures("own p1 : {x1,y1} @ circuit")]]
+[[rc::ensures("own p2 : {x2,y2} @ circuit")]]
+void foo(circuit* c1, circuit* c2){
+    if(!check_two(c1)){
+        set_one(c1, true);
+     }
+    if(!check_one(c2)){
+        set_two(c2, true);
+     }
+}
+
+[[rc::ensures("True")]]
+void bar(){
+    circuit c1 = {false, false};
+    circuit c2 = {false, false};
+    foo(&c1, &c1);
+}
 int main(){
     return 0;
 }

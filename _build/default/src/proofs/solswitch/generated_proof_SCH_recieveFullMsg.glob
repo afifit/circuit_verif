@@ -1,0 +1,48 @@
+DIGEST 15d6260740aeead2dc8f3bc3dd3619b9
+Frefinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg
+R36:41 refinedc.typing.typing <> <> lib
+R104:117 refinedc.project.learning.src.solswitch.generated_code <> <> lib
+R180:193 refinedc.project.learning.src.solswitch.generated_spec <> <> lib
+sec 277:300 <> proof_SCH_recieveFullMsg
+R316:320 refinedc.typing.type <> typeG class
+binder 322:323 <> Σ:1
+binder 315:323 <> typeG0:2
+R329:335 refinedc.typing.globals <> globalG class
+R337:338 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg <> Σ:1 var
+binder 328:338 <> globalG0:3
+prf 398:420 <> type_SCH_recieveFullMsg
+R428:431 iris.bi.interface <> ::stdpp_scope:'⊢'_x not
+R432:445 refinedc.typing.function <> typed_function def
+R447:469 refinedc.project.learning.src.solswitch.generated_code <> impl_SCH_recieveFullMsg def
+R471:496 refinedc.project.learning.src.solswitch.generated_spec <> type_of_SCH_recieveFullMsg def
+R684:686 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R687:690 stdpp.gmap <> gmap rec
+R699:703 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R705:706 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg <> proof_SCH_recieveFullMsg.Σ var
+R692:696 caesium.lang <> label def
+R673:675 stdpp.base <> ::stdpp_scope:'∅' not
+R730:732 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R733:736 stdpp.gmap <> gmap rec
+R745:749 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R751:752 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg <> proof_SCH_recieveFullMsg.Σ var
+R738:742 caesium.lang <> label def
+R719:721 stdpp.base <> ::stdpp_scope:'∅' not
+R684:686 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R687:690 stdpp.gmap <> gmap rec
+R699:703 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R705:706 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg <> proof_SCH_recieveFullMsg.Σ var
+R692:696 caesium.lang <> label def
+R673:675 stdpp.base <> ::stdpp_scope:'∅' not
+R730:732 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R733:736 stdpp.gmap <> gmap rec
+R745:749 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R751:752 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg <> proof_SCH_recieveFullMsg.Σ var
+R738:742 caesium.lang <> label def
+R719:721 stdpp.base <> ::stdpp_scope:'∅' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R1089:1098 stdpp.base <> inhabitant meth
+R1163:1186 refinedc.project.learning.src.solswitch.generated_proof_SCH_recieveFullMsg proof_SCH_recieveFullMsg <> sec

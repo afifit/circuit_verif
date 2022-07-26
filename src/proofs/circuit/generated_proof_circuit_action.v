@@ -8,10 +8,11 @@ Section proof_circuit_action.
   Context `{!typeG Σ} `{!globalG Σ}.
 
   (* Typing proof for [circuit_action]. *)
-  Lemma type_circuit_action (global_set_one global_set_two : loc) :
+  Lemma type_circuit_action (global_check_two global_set_one global_set_two : loc) :
+    global_check_two ◁ᵥ global_check_two @ function_ptr type_of_check_two -∗
     global_set_one ◁ᵥ global_set_one @ function_ptr type_of_set_one -∗
     global_set_two ◁ᵥ global_set_two @ function_ptr type_of_set_two -∗
-    typed_function (impl_circuit_action global_set_one global_set_two) type_of_circuit_action.
+    typed_function (impl_circuit_action global_check_two global_set_one global_set_two) type_of_circuit_action.
   Proof.
     Open Scope printing_sugar.
     start_function "circuit_action" ([[a b] p]) => arg_c.
