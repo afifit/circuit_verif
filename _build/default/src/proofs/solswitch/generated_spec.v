@@ -182,10 +182,15 @@ Section spec.
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
       → ∃ new_state : nat, (void); (p ◁ₗ (( new_state ,msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜new_state = (if Nat.eqb state 0%nat then 1%nat else state)⌝.
 
+  (* Specifications for function [SML_trySwitch]. *)
+  Definition type_of_SML_trySwitch :=
+    fn(∀ (state, msg, len, p) : nat * nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))), (len @ (int (u8))); True)
+      → ∃ (new_msg, new_state) : nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜((new_msg = 7%nat ∨ new_msg = 12%nat) ∧ (len = 8%nat) ∧ (state = 0%nat) -> (new_state = 1%nat)) ∨ (new_state = state)⌝.
+
   (* Specifications for function [SML_handleReceivedMsgs]. *)
   Definition type_of_SML_handleReceivedMsgs :=
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ (new_msg, new_state) : nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜∃ len, ((new_msg = 7%nat ∨ new_msg = 12%nat) ∧ (len = 8%nat) ∧ (state = 0%nat) -> (new_state = 1%nat)) ∨ ((len <> 8%nat) -> (new_state = state))⌝.
+      → ∃ (new_msg, new_state) : nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜((new_msg = 7%nat ∨ new_msg = 12%nat) ∧  (state = 0%nat) -> (new_state = 1%nat)) ∨ (new_state = state)⌝.
 End spec.
 
 Typeclasses Opaque ComHandler_t_rec.

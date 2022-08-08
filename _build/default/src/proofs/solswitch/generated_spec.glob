@@ -1,4 +1,4 @@
-DIGEST 9706e30c0dffd17e323570373d7fea75
+DIGEST 29351d6eed54013b0ab6e3a5c809c72a
 Frefinedc.project.learning.src.solswitch.generated_spec
 R36:41 refinedc.typing.typing <> <> lib
 R104:117 refinedc.project.learning.src.solswitch.generated_code <> <> lib
@@ -440,97 +440,180 @@ R6692:6697 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
 R6698:6702 refinedc.project.learning.src.solswitch.generated_spec <> state:52 var
 R6662:6668 Coq.Numbers.Natural.Peano.NPeano Nat eqb def
 R6670:6674 refinedc.project.learning.src.solswitch.generated_spec <> state:52 var
-def 6785:6814 <> type_of_SML_handleReceivedMsgs
-R6823:6829 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6845:6847 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6863:6865 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6921:6923 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6928:6943 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6964:6966 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6976:6978 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6983:6985 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R6857:6859 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
-R6851:6853 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
-R6848:6850 Coq.Init.Datatypes <> nat ind
-R6854:6856 Coq.Init.Datatypes <> nat ind
-R6860:6862 caesium.loc <> loc def
-R6830:6830 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6836:6837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6841:6842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6844:6844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6831:6835 caesium.lang <> state rec
-binder 6843:6843 <> p:56
-binder 6838:6840 <> msg:57
-binder 6831:6835 <> state:58
-binder 6830:6844 <> pat:59
-R6970:6972 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
-R6967:6969 Coq.Init.Datatypes <> nat ind
-R6973:6975 Coq.Init.Datatypes <> nat ind
-R6867:6870 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R6920:6920 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R6871:6919 refinedc.typing.own <> ::bi_scope:'&own' not
-R6889:6892 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R6918:6918 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R6893:6917 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
-R6877:6877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6883:6884 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6888:6888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6878:6882 refinedc.project.learning.src.solswitch.generated_spec <> state:58 var
-R6885:6887 refinedc.project.learning.src.solswitch.generated_spec <> msg:57 var
-R6866:6866 refinedc.project.learning.src.solswitch.generated_spec <> p:56 var
-R6924:6927 iris.bi.interface <> ::bi_scope:'True' not
-R6944:6944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6952:6953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6963:6963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-binder 6954:6962 <> new_state:60
-binder 6945:6951 <> new_msg:61
-binder 6944:6963 <> pat:62
-R6979:6982 refinedc.typing.bytes <> void def
-R6986:6986 iris.bi.interface <> ::bi_scope:x_'∗'_x not
-R7049:7054 iris.bi.interface <> ::bi_scope:x_'∗'_x not
-R6988:6996 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
-R7048:7048 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
-R7018:7021 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R7047:7047 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R7022:7046 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
-R6997:6998 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R7008:7009 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R7017:7017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R6999:7007 refinedc.project.learning.src.solswitch.generated_spec <> new_state:60 var
-R7010:7016 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:61 var
-R6987:6987 refinedc.project.learning.src.solswitch.generated_spec <> p:56 var
-R7055:7057 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
-R7212:7214 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
-R7058:7061 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
-R7065:7066 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
-binder 7062:7064 <> len:63
-R7067:7067 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
-R7167:7173 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
-R7211:7211 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
-R7144:7148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7166:7166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7068:7068 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
-R7105:7110 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
-R7084:7088 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
-R7076:7078 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7069:7075 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:61 var
-R7096:7098 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7089:7095 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:61 var
-R7111:7111 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
-R7123:7129 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
-R7143:7143 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
-R7115:7117 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7112:7114 refinedc.project.learning.src.solswitch.generated_spec <> len:63 var
-R7135:7137 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7130:7134 refinedc.project.learning.src.solswitch.generated_spec <> state:58 var
-R7158:7160 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7149:7157 refinedc.project.learning.src.solswitch.generated_spec <> new_state:60 var
-R7174:7174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7187:7192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7210:7210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7178:7181 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R7175:7177 refinedc.project.learning.src.solswitch.generated_spec <> len:63 var
-R7202:7204 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R7193:7201 refinedc.project.learning.src.solswitch.generated_spec <> new_state:60 var
-R7205:7209 refinedc.project.learning.src.solswitch.generated_spec <> state:58 var
-R7221:7224 refinedc.project.learning.src.solswitch.generated_spec spec <> sec
+def 6776:6796 <> type_of_SML_trySwitch
+R6805:6811 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6832:6834 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6856:6858 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6914:6917 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6934:6936 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6941:6956 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6977:6979 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6989:6991 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6996:6998 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R6850:6852 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6844:6846 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6838:6840 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6835:6837 Coq.Init.Datatypes <> nat ind
+R6841:6843 Coq.Init.Datatypes <> nat ind
+R6847:6849 Coq.Init.Datatypes <> nat ind
+R6853:6855 caesium.loc <> loc def
+R6812:6812 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6818:6819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6823:6824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6828:6829 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6831:6831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6813:6817 caesium.lang <> state rec
+binder 6830:6830 <> p:56
+binder 6825:6827 <> len:57
+binder 6820:6822 <> msg:58
+binder 6813:6817 <> state:59
+binder 6812:6831 <> pat:60
+R6983:6985 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6980:6982 Coq.Init.Datatypes <> nat ind
+R6986:6988 Coq.Init.Datatypes <> nat ind
+R6860:6863 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6913:6913 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6864:6912 refinedc.typing.own <> ::bi_scope:'&own' not
+R6882:6885 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6911:6911 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6886:6910 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
+R6870:6870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6876:6877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6881:6881 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6871:6875 refinedc.project.learning.src.solswitch.generated_spec <> state:59 var
+R6878:6880 refinedc.project.learning.src.solswitch.generated_spec <> msg:58 var
+R6859:6859 refinedc.project.learning.src.solswitch.generated_spec <> p:56 var
+R6921:6924 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6933:6933 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R6925:6927 refinedc.typing.int <> int def
+R6930:6931 caesium.int_type <> u8 def
+R6918:6920 refinedc.project.learning.src.solswitch.generated_spec <> len:57 var
+R6937:6940 iris.bi.interface <> ::bi_scope:'True' not
+R6957:6957 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6965:6966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6976:6976 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 6967:6975 <> new_state:61
+binder 6958:6964 <> new_msg:62
+binder 6957:6976 <> pat:63
+R6992:6995 refinedc.typing.bytes <> void def
+R6999:6999 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R7062:7067 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R7001:7009 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R7061:7061 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R7031:7034 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7060:7060 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7035:7059 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
+R7010:7011 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7021:7022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7030:7030 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7012:7020 refinedc.project.learning.src.solswitch.generated_spec <> new_state:61 var
+R7023:7029 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:62 var
+R7000:7000 refinedc.project.learning.src.solswitch.generated_spec <> p:56 var
+R7068:7070 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R7196:7198 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R7071:7071 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7171:7177 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7195:7195 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7148:7152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7170:7170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7072:7072 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7109:7114 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7088:7092 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7080:7082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7073:7079 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:62 var
+R7100:7102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7093:7099 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:62 var
+R7115:7115 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7127:7133 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7147:7147 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7119:7121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7116:7118 refinedc.project.learning.src.solswitch.generated_spec <> len:57 var
+R7139:7141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7134:7138 refinedc.project.learning.src.solswitch.generated_spec <> state:59 var
+R7162:7164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7153:7161 refinedc.project.learning.src.solswitch.generated_spec <> new_state:61 var
+R7187:7189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7178:7186 refinedc.project.learning.src.solswitch.generated_spec <> new_state:61 var
+R7190:7194 refinedc.project.learning.src.solswitch.generated_spec <> state:59 var
+def 7277:7306 <> type_of_SML_handleReceivedMsgs
+R7315:7321 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7337:7339 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7355:7357 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7413:7415 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7420:7435 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7456:7458 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7468:7470 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7475:7477 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_','_'..'_','_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
+R7349:7351 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7343:7345 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7340:7342 Coq.Init.Datatypes <> nat ind
+R7346:7348 Coq.Init.Datatypes <> nat ind
+R7352:7354 caesium.loc <> loc def
+R7322:7322 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7328:7329 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7333:7334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7336:7336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7323:7327 caesium.lang <> state rec
+binder 7335:7335 <> p:64
+binder 7330:7332 <> msg:65
+binder 7323:7327 <> state:66
+binder 7322:7336 <> pat:67
+R7462:7464 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7459:7461 Coq.Init.Datatypes <> nat ind
+R7465:7467 Coq.Init.Datatypes <> nat ind
+R7359:7362 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7412:7412 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7363:7411 refinedc.typing.own <> ::bi_scope:'&own' not
+R7381:7384 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7410:7410 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7385:7409 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
+R7369:7369 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7375:7376 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7380:7380 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7370:7374 refinedc.project.learning.src.solswitch.generated_spec <> state:66 var
+R7377:7379 refinedc.project.learning.src.solswitch.generated_spec <> msg:65 var
+R7358:7358 refinedc.project.learning.src.solswitch.generated_spec <> p:64 var
+R7416:7419 iris.bi.interface <> ::bi_scope:'True' not
+R7436:7436 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7444:7445 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7455:7455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 7446:7454 <> new_state:68
+binder 7437:7443 <> new_msg:69
+binder 7436:7455 <> pat:70
+R7471:7474 refinedc.typing.bytes <> void def
+R7478:7478 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R7541:7546 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R7480:7488 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R7540:7540 refinedc.typing.type <> ::bi_scope:x_'◁ₗ'_x not
+R7510:7513 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7539:7539 refinedc.typing.type <> ::bi_scope:x_'@'_x not
+R7514:7538 refinedc.project.learning.src.solswitch.generated_spec <> SolenoidSwitchingParams_t def
+R7489:7490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7500:7501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7509:7509 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7491:7499 refinedc.project.learning.src.solswitch.generated_spec <> new_state:68 var
+R7502:7508 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:69 var
+R7479:7479 refinedc.project.learning.src.solswitch.generated_spec <> p:64 var
+R7547:7549 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R7658:7660 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R7550:7550 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7633:7639 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7657:7657 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7610:7614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7632:7632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7551:7551 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7588:7595 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7609:7609 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R7567:7571 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7559:7561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7552:7558 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:69 var
+R7579:7581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7572:7578 refinedc.project.learning.src.solswitch.generated_spec <> new_msg:69 var
+R7601:7603 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7596:7600 refinedc.project.learning.src.solswitch.generated_spec <> state:66 var
+R7624:7626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7615:7623 refinedc.project.learning.src.solswitch.generated_spec <> new_state:68 var
+R7649:7651 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7640:7648 refinedc.project.learning.src.solswitch.generated_spec <> new_state:68 var
+R7652:7656 refinedc.project.learning.src.solswitch.generated_spec <> state:66 var
+R7667:7670 refinedc.project.learning.src.solswitch.generated_spec spec <> sec

@@ -1,6 +1,7 @@
 generated_proof_SCH_recieveFullMsg.v
 generated_proof_SML_handleReceivedMsgs.v
 generated_proof_SML_switchTheSolenoid.v
+generated_proof_SML_trySwitch.v
 generated_proof__Exit.v
 generated_proof_abort.v
 generated_proof_abs.v

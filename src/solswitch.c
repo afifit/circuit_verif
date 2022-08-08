@@ -47,29 +47,35 @@ void SML_switchTheSolenoid( SolenoidSwitchingParams_t* ssp){
 #define UNIQUE_MSG_SIZE 8
 #define UNIQUE_MSG_A 7
 #define UNIQUE_MSG_B 12
-[[rc::parameters("state: nat", "msg: nat", "p: loc")]]
-[[rc::args("p @ &own<{state, msg} @ SolenoidSwitchingParams_t>")]]
+
+[[rc::parameters("state: nat", "msg: nat", "len: nat", "p: loc")]]
+[[rc::args("p @ &own<{state, msg} @ SolenoidSwitchingParams_t>", "len @ int<u8>")]]
 [[rc::exists("new_msg : nat")]]
 [[rc::exists("new_state : nat")]]
 [[rc::ensures("own p : { new_state ,new_msg} @ SolenoidSwitchingParams_t")]]
-//inorder to reason about the nondent value of `SCH_recieveFullMsg` we need to add an ∃ len, otherwise refinedc can unify a value for it.
-//so in order to complete the proof we have to provide values for each case (and else case).
-[[rc::ensures("{∃ len, ((new_msg = 7%nat ∨ new_msg = 12%nat) ∧ (len = 8%nat) ∧ (state = 0%nat) -> (new_state = 1%nat)) ∨ ((len <> 8%nat) -> (new_state = state))}")]]
-[[rc::tactics("exists 8%nat. left. auto. intros [_ [_ HH1]]. rewrite HH1. auto." )]]
-[[rc::tactics("exists 8%nat. left. auto. intros [_ [_ HH1]]. rewrite HH1. auto." )]]
-[[rc::tactics("exists 0%nat. right. auto. " )]]
-[[rc::tactics("exists 0%nat. right. auto. " )]]
-[[rc::tactics("exists 0%nat. right. auto. " )]]
-void SML_handleReceivedMsgs(SolenoidSwitchingParams_t* ssp)
+[[rc::ensures("{((new_msg = 7%nat ∨ new_msg = 12%nat) ∧ (len = 8%nat) ∧ (state = 0%nat) -> (new_state = 1%nat)) ∨ (new_state = state)}")]]
+void SML_trySwitch(SolenoidSwitchingParams_t* ssp, uint8_t length)
 {
-    uint8_t rxMsgSize = SCH_recieveFullMsg(&ssp->handler);
-    if(rxMsgSize != INVALID_MSG_SIZE){
-        if(rxMsgSize == UNIQUE_MSG_SIZE){
+    if(length != INVALID_MSG_SIZE){
+        if(length == UNIQUE_MSG_SIZE){
             if(ssp->handler.msg == UNIQUE_MSG_A || ssp->handler.msg == UNIQUE_MSG_B){ // todo - msg should be array.
                SML_switchTheSolenoid(ssp);
             }
         }
     }
+}
+
+[[rc::parameters("state: nat", "msg: nat", "p: loc")]]
+[[rc::args("p @ &own<{state, msg} @ SolenoidSwitchingParams_t>")]]
+[[rc::exists("new_msg : nat")]]
+[[rc::exists("new_state : nat")]]
+[[rc::ensures("own p : { new_state ,new_msg} @ SolenoidSwitchingParams_t")]]
+//todo - how to write a spec here to descrive the desried solenoid state? how to handle rxMsgSize?
+//as i understand you cant really include SCH_recieveFullMsg return value in your spec (unless you can refine it, by using return). 
+void SML_handleReceivedMsgs(SolenoidSwitchingParams_t* ssp)
+{
+    uint8_t rxMsgSize = SCH_recieveFullMsg(&ssp->handler);
+    SML_trySwitch(ssp, rxMsgSize);
 }
 
 /*

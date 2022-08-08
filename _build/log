@@ -3,7 +3,7 @@
 # Shared cache: disabled
 # Workspace root: /home/dor/refinedc-projects/circuit_verif
 # Auto-detected concurrency: 8
-$ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_b79dfe_output
+$ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_038a06_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -115,11 +115,34 @@ $ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_b79dfe_ou
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_proof_SCH_recieveFullMsg.v) > _build/default/src/proofs/solswitch/generated_proof_SCH_recieveFullMsg.v.d
-$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_code.v) > _build/default/src/proofs/solswitch/generated_code.v.d
 $ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_spec.v) > _build/default/src/proofs/solswitch/generated_spec.v.d
+$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_code.v) > _build/default/src/proofs/solswitch/generated_code.v.d
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_code.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_spec.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_proof_SCH_recieveFullMsg.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_proof_SML_switchTheSolenoid.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_proof_SML_handleReceivedMsgs.v)
+> Cannot solve side condition in function "SML_handleReceivedMsgs" !
+> Location: "src/solswitch.c" [ 79 : 4 - 79 : 34 ]
+> up to date: false
+> Goal:
+> state : nat
+> p : loc
+> x'0 : nat
+> x'1 : nat
+> x'2 : nat
+> H :
+> (((x'1 = 7%nat ∨ x'1 = 12%nat) ∧ x'0 = 8%nat ∧ state = 0%nat → x'2 = 1%nat)
+>  ∨ x'2 = state)
+> H0 : (mem_cast_id p PtrOp)
+> ---------------------------------------
+> (((x'1 = 7%nat ∨ x'1 = 12%nat) ∧ state = 0%nat → x'2 = 1%nat) ∨ x'2 = state)
+>
+>
+> File "./src/proofs/solswitch/generated_proof_SML_handleReceivedMsgs.v", line 29, characters 2-6:
+> Error:  (in proof type_SML_handleReceivedMsgs): Attempt to save a proof with
+> given up goals. If this is really what you want to do, use Admitted in place
+> of Qed.
+>
+[1]
+$ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_proof_SML_trySwitch.v)
