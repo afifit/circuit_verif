@@ -6,9 +6,45 @@ Set Default Proof Using "Type".
 Section spec.
   Context `{!typeG Σ} `{!globalG Σ}.
 
-  (* Inlined code. *)
+  (* Definition of type [ComHandler_t]. *)
+  Definition ComHandler_t_rec : (nat -d> typeO) → (nat -d> typeO) := (λ self msg,
+    struct struct_ComHandler_t [@{type}
+      (msg @ (int (u8)))
+    ]
+  )%I.
+  Typeclasses Opaque ComHandler_t_rec.
 
-  Definition SCH_recieveFullMsg_ret (b : nat) : iProp Σ. Admitted. (* TODO: Fill in something here.*)
+  Global Instance ComHandler_t_rec_ne : Contractive ComHandler_t_rec.
+  Proof. solve_type_proper. Qed.
+  Global Instance ComHandler_t_rec_proper : Proper ((≡) ==> (≡)) ComHandler_t_rec.
+  Proof. apply contractive_proper, _. Qed.
+
+  Definition ComHandler_t : rtype := {|
+    rty_type := nat;
+    rty r__ := ComHandler_t_rec (fixp ComHandler_t_rec) r__
+  |}.
+
+  Lemma ComHandler_t_unfold (msg : nat):
+    (msg @ ComHandler_t)%I ≡@{type} (
+      struct struct_ComHandler_t [@{type}
+        (msg @ (int (u8)))
+      ]
+    )%I.
+  Proof. apply: (fixp_unfold' ComHandler_t_rec). Qed.
+
+  Global Instance ComHandler_t_simplify_hyp_place_inst_generated l_ β_ patt__:
+    SimplifyHypPlace l_ β_ (patt__ @ ComHandler_t)%I (Some 100%N) :=
+    λ T, i2p (simplify_hyp_place_eq l_ β_ _ _ T (ComHandler_t_unfold _)).
+  Global Instance ComHandler_t_simplify_goal_place_inst_generated l_ β_ patt__:
+    SimplifyGoalPlace l_ β_ (patt__ @ ComHandler_t)%I (Some 100%N) :=
+    λ T, i2p (simplify_goal_place_eq l_ β_ _ _ T (ComHandler_t_unfold _)).
+
+  Global Instance ComHandler_t_simplify_hyp_val_inst_generated v_ patt__:
+    SimplifyHypVal v_ (patt__ @ ComHandler_t)%I (Some 100%N) :=
+    λ T, i2p (simplify_hyp_val_eq v_ _ _ T (ComHandler_t_unfold _)).
+  Global Instance ComHandler_t_simplify_goal_val_inst_generated v_ patt__:
+    SimplifyGoalVal v_ (patt__ @ ComHandler_t)%I (Some 100%N) :=
+    λ T, i2p (simplify_goal_val_eq v_ _ _ T (ComHandler_t_unfold _)).
 
   (* Definition of type [SolenoidSwitchingParams_t]. *)
   Definition SolenoidSwitchingParams_t_rec : (nat * nat -d> typeO) → (nat * nat -d> typeO) := (λ self patt__,
@@ -16,7 +52,7 @@ Section spec.
     let msg := patt__.2 in
     struct struct_SolenoidSwitchingParams_t [@{type}
       (state @ (int (size_t))) ;
-      (msg @ (int (size_t)))
+      ((msg @ (ComHandler_t)))
     ]
   )%I.
   Typeclasses Opaque SolenoidSwitchingParams_t_rec.
@@ -37,7 +73,7 @@ Section spec.
       let msg := patt__.2 in
       struct struct_SolenoidSwitchingParams_t [@{type}
         (state @ (int (size_t))) ;
-        (msg @ (int (size_t)))
+        ((msg @ (ComHandler_t)))
       ]
     )%I.
   Proof. apply: (fixp_unfold' SolenoidSwitchingParams_t_rec). Qed.
@@ -138,8 +174,8 @@ Section spec.
 
   (* Specifications for function [SCH_recieveFullMsg]. *)
   Definition type_of_SCH_recieveFullMsg :=
-    fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ (new_msg, new_msg_size) : nat * nat, (new_msg_size @ (int (u8))); (p ◁ₗ ((state,new_msg) @ (SolenoidSwitchingParams_t))).
+    fn(∀ (msg, p) : nat * loc; (p @ (&own ((msg) @ (ComHandler_t)))); True)
+      → ∃ (new_msg, new_msg_size) : nat * nat, (new_msg_size @ (int (u8))); (p ◁ₗ ((new_msg) @ (ComHandler_t))).
 
   (* Specifications for function [SML_switchTheSolenoid]. *)
   Definition type_of_SML_switchTheSolenoid :=
@@ -149,7 +185,8 @@ Section spec.
   (* Specifications for function [SML_handleReceivedMsgs]. *)
   Definition type_of_SML_handleReceivedMsgs :=
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ (new_msg, new_state, new_msg_size) : nat * nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜∃ len, or ((len = 8%nat) -> (new_state = 1%nat)) ((len <> 8%nat) -> (new_state = state))⌝.
+      → ∃ (new_msg, new_state) : nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜∃ len, ((new_msg = 7%nat ∨ new_msg = 12%nat) ∧ (len = 8%nat) ∧ (state = 0%nat) -> (new_state = 1%nat)) ∨ ((len <> 8%nat) -> (new_state = state))⌝.
 End spec.
 
+Typeclasses Opaque ComHandler_t_rec.
 Typeclasses Opaque SolenoidSwitchingParams_t_rec.

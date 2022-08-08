@@ -2,6 +2,25 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+[[rc::refined_by("msg: nat")]]
+typedef struct ComHandler{
+	// uint8_t rxMsg_buf[UNIQUE_MSG_SIZE];
+	// uint8_t rxMsgByteNum;
+	// uint8_t decodedTxMsg_buf[DECODE_MSG_MAX_SIZE];
+    [[rc::field("msg @ int<u8>")]]
+    uint8_t msg;
+
+} ComHandler;
+
+[[rc::refined_by("msg: nat")]]
+typedef struct MyStruct {
+	// uint8_t rxMsg_buf[UNIQUE_MSG_SIZE];
+	// uint8_t rxMsgByteNum;
+	// uint8_t decodedTxMsg_buf[DECODE_MSG_MAX_SIZE];
+    [[rc::field("msg @ ComHandler_t")]]
+    ComHandler cmdhandler;
+
+} MyStruct;
 
 // [[rc::exists("value : nat")]]
 // [[rc::returns("value @ int<u8>")]]
@@ -17,19 +36,19 @@
 //     }
 //     return 1;
 // }
-[[rc::exists("v : bool")]]
-[[rc::returns("v @ builtin_boolean")]]
- bool nondent() { return 2;}
+// [[rc::exists("v : bool")]]
+// [[rc::returns("v @ builtin_boolean")]]
+//  bool nondent() { return 2;}
 
-[[rc::exists("v : Z")]]
-[[rc::returns("v @ int<i32>")]]
-[[rc::ensures("{\exsits w, w = 2 -> v = 1}")]]
-int foo(){
-    if(nondent() == 2){
-        return 1;
-    }
-    return 2;
-}
+// [[rc::exists("v : Z")]]
+// [[rc::returns("v @ int<i32>")]]
+// [[rc::ensures("{\exsits w, w = 2 -> v = 1}")]]
+// int foo(){
+//     if(nondent() == 2){
+//         return 1;
+//     }
+//     return 2;
+// }
 
 // [[rc::exists("value : bool")]]
 // [[rc::returns("value @ builtin_boolean")]]

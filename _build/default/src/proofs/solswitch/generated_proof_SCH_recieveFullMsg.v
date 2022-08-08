@@ -12,8 +12,8 @@ Section proof_SCH_recieveFullMsg.
     ⊢ typed_function impl_SCH_recieveFullMsg type_of_SCH_recieveFullMsg.
   Proof.
     Open Scope printing_sugar.
-    start_function "SCH_recieveFullMsg" ([[state msg] p]) => arg_ssp.
-    prepare_parameters (state msg p).
+    start_function "SCH_recieveFullMsg" ([msg p]) => arg_handler.
+    prepare_parameters (msg p).
     split_blocks ((
       ∅
     )%I : gmap label (iProp Σ)) ((

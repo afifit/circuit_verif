@@ -85,13 +85,4 @@ Section spec.
   (* Function [mbstowcs] has been skipped. *)
 
   (* Function [wcstombs] has been skipped. *)
-
-  (* Specifications for function [nondent]. *)
-  Definition type_of_nondent :=
-    fn(∀ () : (); True) → ∃ v : bool, (v @ (builtin_boolean)); True.
-
-  (* Specifications for function [foo]. *)
-  Definition type_of_foo :=
-    fn(∀ () : (); True)
-      → ∃ (v, w) : Z * Z, (v @ (int (i32))); ⌜v = 1 ∨ v = 2⌝.
 End spec.

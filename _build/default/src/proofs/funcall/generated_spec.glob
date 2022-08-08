@@ -1,4 +1,4 @@
-DIGEST 15c72eeb10ae81c0b621ceabb993f028
+DIGEST b12d1604ae3d3c37dbd6c6eb2205535e
 Frefinedc.project.learning.src.funcall.generated_spec
 R36:41 refinedc.typing.typing <> <> lib
 R102:115 refinedc.project.learning.src.funcall.generated_code <> <> lib
@@ -9,57 +9,4 @@ binder 215:223 <> typeG0:2
 R229:235 refinedc.typing.globals <> globalG class
 R237:238 refinedc.project.learning.src.funcall.generated_spec <> Σ:1 var
 binder 228:238 <> globalG0:3
-def 2084:2098 <> type_of_nondent
-R2107:2113 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2116:2118 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2121:2122 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2127:2136 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2138:2140 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2145:2147 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2169:2171 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2119:2120 Coq.Program.Syntax <> ::type_scope:'()' not
-R2114:2115 Coq.Program.Syntax <> :::'()' not
-binder 2114:2115 <> pat:4
-R2141:2144 Coq.Init.Datatypes <> bool ind
-R2123:2126 iris.bi.interface <> ::bi_scope:'True' not
-binder 2137:2137 <> v:5
-binder 2137:2137 <> v:6
-R2149:2152 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R2168:2168 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R2153:2167 refinedc.typing.boolean <> builtin_boolean syndef
-R2148:2148 refinedc.project.learning.src.funcall.generated_spec <> v:5 var
-R2172:2175 iris.bi.interface <> ::bi_scope:'True' not
-def 2235:2245 <> type_of_foo
-R2254:2260 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2263:2265 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2268:2269 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2274:2289 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2296:2298 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2304:2306 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2322:2324 refinedc.typing.function <> ::stdpp_scope:'fn(∀'_x_':'_x_';'_x_')'_'→'_'∃'_x_':'_x_','_x_';'_x not
-R2266:2267 Coq.Program.Syntax <> ::type_scope:'()' not
-R2261:2262 Coq.Program.Syntax <> :::'()' not
-binder 2261:2262 <> pat:7
-R2300:2302 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
-R2299:2299 Coq.Numbers.BinNums <> Z ind
-R2303:2303 Coq.Numbers.BinNums <> Z ind
-R2270:2273 iris.bi.interface <> ::bi_scope:'True' not
-R2290:2290 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R2292:2293 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-R2295:2295 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
-binder 2294:2294 <> w:8
-binder 2291:2291 <> v:9
-binder 2290:2295 <> pat:10
-R2308:2311 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R2321:2321 refinedc.typing.type <> ::bi_scope:x_'@'_x not
-R2312:2314 refinedc.typing.int <> int def
-R2317:2319 caesium.int_type <> i32 def
-R2307:2307 refinedc.project.learning.src.funcall.generated_spec <> v:9 var
-R2325:2327 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
-R2343:2345 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
-R2333:2337 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
-R2329:2331 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R2328:2328 refinedc.project.learning.src.funcall.generated_spec <> v:9 var
-R2339:2341 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R2338:2338 refinedc.project.learning.src.funcall.generated_spec <> v:9 var
-R2352:2355 refinedc.project.learning.src.funcall.generated_spec spec <> sec
+R2027:2030 refinedc.project.learning.src.funcall.generated_spec spec <> sec

@@ -12,7 +12,6 @@ generated_proof_bsearch.v
 generated_proof_calloc.v
 generated_proof_div.v
 generated_proof_exit.v
-generated_proof_foo.v
 generated_proof_free.v
 generated_proof_getenv.v
 generated_proof_labs.v
@@ -23,7 +22,6 @@ generated_proof_malloc.v
 generated_proof_mblen.v
 generated_proof_mbstowcs.v
 generated_proof_mbtowc.v
-generated_proof_nondent.v
 generated_proof_qsort.v
 generated_proof_quick_exit.v
 generated_proof_rand.v

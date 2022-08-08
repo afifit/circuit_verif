@@ -3,7 +3,7 @@
 # Shared cache: disabled
 # Workspace root: /home/dor/refinedc-projects/circuit_verif
 # Auto-detected concurrency: 8
-$ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_e10cef_output
+$ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_b79dfe_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -115,8 +115,9 @@ $ /home/dor/.opam/refinedc-projects/bin/ocamlc.opt -config > /tmp/dune_e10cef_ou
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_proof_SML_handleReceivedMsgs.v) > _build/default/src/proofs/solswitch/generated_proof_SML_handleReceivedMsgs.v.d
+$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_proof_SCH_recieveFullMsg.v) > _build/default/src/proofs/solswitch/generated_proof_SCH_recieveFullMsg.v.d
 $ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_code.v) > _build/default/src/proofs/solswitch/generated_code.v.d
+$ (cd _build/default/src/proofs/solswitch && /home/dor/.opam/refinedc-projects/bin/coqdep -R . refinedc.project.learning.src.solswitch -dyndep opt generated_spec.v) > _build/default/src/proofs/solswitch/generated_spec.v.d
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_code.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_spec.v)
 $ (cd _build/default && /home/dor/.opam/refinedc-projects/bin/coqc -q -w -notation-overridden -w -redundant-canonical-projection -w -deprecated-native-compiler-option -w -native-compiler-disabled -native-compiler ondemand -R src/proofs/solswitch refinedc.project.learning.src.solswitch src/proofs/solswitch/generated_proof_SCH_recieveFullMsg.v)
