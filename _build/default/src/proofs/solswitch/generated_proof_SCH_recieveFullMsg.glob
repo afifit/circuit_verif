@@ -41,6 +41,14 @@ R738:742 caesium.lang <> label def
 R719:721 stdpp.base <> ::stdpp_scope:'∅' not
 R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
+R2528:2530 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2531:2546 refinedc.typing.automation.proof_state <> CURRENT_LOCATION def
+R2548:2548 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2551:2551 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2553:2556 Coq.Init.Datatypes <> true constr
+R2526:2527 Coq.Program.Syntax <> :::'()' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def

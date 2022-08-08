@@ -1,0 +1,53 @@
+DIGEST 7fba76b0d32854cb5b6d09c104ca984c
+Frefinedc.project.learning.src.funcall.generated_proof_nondent
+R36:41 refinedc.typing.typing <> <> lib
+R102:115 refinedc.project.learning.src.funcall.generated_code <> <> lib
+R176:189 refinedc.project.learning.src.funcall.generated_spec <> <> lib
+sec 271:283 <> proof_nondent
+R299:303 refinedc.typing.type <> typeG class
+binder 305:306 <> Σ:1
+binder 298:306 <> typeG0:2
+R312:318 refinedc.typing.globals <> globalG class
+R320:321 refinedc.project.learning.src.funcall.generated_proof_nondent <> Σ:1 var
+binder 311:321 <> globalG0:3
+prf 370:381 <> type_nondent
+R389:392 iris.bi.interface <> ::stdpp_scope:'⊢'_x not
+R393:406 refinedc.typing.function <> typed_function def
+R408:419 refinedc.project.learning.src.funcall.generated_code <> impl_nondent def
+R421:435 refinedc.project.learning.src.funcall.generated_spec <> type_of_nondent def
+R550:552 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R553:556 stdpp.gmap <> gmap rec
+R565:569 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R571:572 refinedc.project.learning.src.funcall.generated_proof_nondent <> proof_nondent.Σ var
+R558:562 caesium.lang <> label def
+R539:541 stdpp.base <> ::stdpp_scope:'∅' not
+R596:598 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R599:602 stdpp.gmap <> gmap rec
+R611:615 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R617:618 refinedc.project.learning.src.funcall.generated_proof_nondent <> proof_nondent.Σ var
+R604:608 caesium.lang <> label def
+R585:587 stdpp.base <> ::stdpp_scope:'∅' not
+R550:552 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R553:556 stdpp.gmap <> gmap rec
+R565:569 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R571:572 refinedc.project.learning.src.funcall.generated_proof_nondent <> proof_nondent.Σ var
+R558:562 caesium.lang <> label def
+R539:541 stdpp.base <> ::stdpp_scope:'∅' not
+R596:598 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R599:602 stdpp.gmap <> gmap rec
+R611:615 iris.base_logic.lib.iprop iProp_solution iProp syndef
+R617:618 refinedc.project.learning.src.funcall.generated_proof_nondent <> proof_nondent.Σ var
+R604:608 caesium.lang <> label def
+R585:587 stdpp.base <> ::stdpp_scope:'∅' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R2528:2530 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2531:2546 refinedc.typing.automation.proof_state <> CURRENT_LOCATION def
+R2548:2548 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2551:2551 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2553:2556 Coq.Init.Datatypes <> true constr
+R2526:2527 Coq.Program.Syntax <> :::'()' not
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R933:942 stdpp.base <> inhabitant meth
+R996:1008 refinedc.project.learning.src.funcall.generated_proof_nondent proof_nondent <> sec

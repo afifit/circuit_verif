@@ -6,6 +6,10 @@ Set Default Proof Using "Type".
 Section spec.
   Context `{!typeG Σ} `{!globalG Σ}.
 
+  (* Inlined code. *)
+
+  Definition SCH_recieveFullMsg_ret (b : nat) : iProp Σ. Admitted. (* TODO: Fill in something here.*)
+
   (* Definition of type [SolenoidSwitchingParams_t]. *)
   Definition SolenoidSwitchingParams_t_rec : (nat * nat -d> typeO) → (nat * nat -d> typeO) := (λ self patt__,
     let state := patt__.1 in
@@ -135,17 +139,17 @@ Section spec.
   (* Specifications for function [SCH_recieveFullMsg]. *)
   Definition type_of_SCH_recieveFullMsg :=
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ new_msg : nat, (void); (p ◁ₗ ((state,new_msg) @ (SolenoidSwitchingParams_t))).
+      → ∃ (new_msg, new_msg_size) : nat * nat, (new_msg_size @ (int (u8))); (p ◁ₗ ((state,new_msg) @ (SolenoidSwitchingParams_t))).
 
   (* Specifications for function [SML_switchTheSolenoid]. *)
   Definition type_of_SML_switchTheSolenoid :=
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ () : (), (void); (p ◁ₗ (( (if Nat.eqb state 0%nat then 1%nat else state) ,msg) @ (SolenoidSwitchingParams_t))).
+      → ∃ new_state : nat, (void); (p ◁ₗ (( new_state ,msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜new_state = (if Nat.eqb state 0%nat then 1%nat else state)⌝.
 
   (* Specifications for function [SML_handleReceivedMsgs]. *)
   Definition type_of_SML_handleReceivedMsgs :=
     fn(∀ (state, msg, p) : nat * nat * loc; (p @ (&own ((state, msg) @ (SolenoidSwitchingParams_t)))); True)
-      → ∃ (new_msg, new_state) : nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))).
+      → ∃ (new_msg, new_state, new_msg_size) : nat * nat * nat, (void); (p ◁ₗ (( new_state ,new_msg) @ (SolenoidSwitchingParams_t))) ∗ ⌜∃ len, or ((len = 8%nat) -> (new_state = 1%nat)) ((len <> 8%nat) -> (new_state = state))⌝.
 End spec.
 
 Typeclasses Opaque SolenoidSwitchingParams_t_rec.

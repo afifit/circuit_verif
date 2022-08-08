@@ -79,5 +79,8 @@ R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
 R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
+R11615:11620 lithium.interpreter <> LET_ID def
 R1161:1170 stdpp.base <> inhabitant meth
 R1238:1264 refinedc.project.learning.src.solswitch.generated_proof_SML_switchTheSolenoid proof_SML_switchTheSolenoid <> sec

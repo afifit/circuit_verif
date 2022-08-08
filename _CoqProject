@@ -4,3 +4,4 @@
 -Q _build/default/src/proofs/example refinedc.project.learning.src.example
 -Q _build/default/src/proofs/circuit refinedc.project.learning.src.circuit
 -Q _build/default/src/proofs/solswitch refinedc.project.learning.src.solswitch
+-Q _build/default/src/proofs/funcall refinedc.project.learning.src.funcall
