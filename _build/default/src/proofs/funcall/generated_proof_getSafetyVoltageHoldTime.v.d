@@ -1,0 +1,2 @@
+generated_proof_getSafetyVoltageHoldTime.vo generated_proof_getSafetyVoltageHoldTime.glob generated_proof_getSafetyVoltageHoldTime.v.beautified generated_proof_getSafetyVoltageHoldTime.required_vo: generated_proof_getSafetyVoltageHoldTime.v ./generated_code.vo ./generated_spec.vo
+generated_proof_getSafetyVoltageHoldTime.vio: generated_proof_getSafetyVoltageHoldTime.v ./generated_code.vio ./generated_spec.vio

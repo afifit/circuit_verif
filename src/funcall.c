@@ -2,25 +2,31 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-[[rc::refined_by("msg: nat")]]
-typedef struct ComHandler{
-	// uint8_t rxMsg_buf[UNIQUE_MSG_SIZE];
-	// uint8_t rxMsgByteNum;
-	// uint8_t decodedTxMsg_buf[DECODE_MSG_MAX_SIZE];
-    [[rc::field("msg @ int<u8>")]]
-    uint8_t msg;
+#define MAX_TIME_VAL 0xFFFF
+[[rc::parameters("last_time: nat", "current_time: nat")]]
+[[rc::args("last_time @ int<u16>", "current_time @ int<u16>")]]
+[[rc::requires("{current_time ≤ last_time -> 65535 - last_time + current_time ≤ 10}")]]
+[[rc::requires("{current_time > last_time -> current_time - last_time ≤ 10}")]]
+[[rc::exists("t : nat")]]
+[[ensures("{ t = (current_time ≤ last_time ) ? (current_time - last_time) : (65535 - last_time + current_time)}")]]
+[[rc::returns("t @ int<u8>")]]
+uint8_t getSafetyVoltageHoldTime(uint16_t  startTime, uint16_t  curTime){
+    // these lines will execute untill the difference (safetyVoltageHoldTime) will be greater than 10 . 
+    // so it's leagal to store safetyVoltageHoldTime in one byte.
+    uint8_t safetyVoltageHoldTime;
+  
+    // handle edge case where timeCounter is around the max value
+    // after timeCounter is equal to MAX_TIME_VAL-1 it become equal to zero
+    if( curTime < startTime ){
+        safetyVoltageHoldTime= (MAX_TIME_VAL-startTime) + curTime;
+     }else{
+        // this lines will be execute untill the difference (safetyVoltageHoldTime) will be greater than 10 . 
+        // so the cast to uint8_t is leagal.
+        safetyVoltageHoldTime = (uint8_t) (curTime - startTime);
+     }
+    return safetyVoltageHoldTime;
+}
 
-} ComHandler;
-
-[[rc::refined_by("msg: nat")]]
-typedef struct MyStruct {
-	// uint8_t rxMsg_buf[UNIQUE_MSG_SIZE];
-	// uint8_t rxMsgByteNum;
-	// uint8_t decodedTxMsg_buf[DECODE_MSG_MAX_SIZE];
-    [[rc::field("msg @ ComHandler_t")]]
-    ComHandler cmdhandler;
-
-} MyStruct;
 
 // [[rc::exists("value : nat")]]
 // [[rc::returns("value @ int<u8>")]]

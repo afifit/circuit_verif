@@ -13,8 +13,8 @@ Section proof_SML_trySwitch.
     typed_function (impl_SML_trySwitch global_SML_switchTheSolenoid) type_of_SML_trySwitch.
   Proof.
     Open Scope printing_sugar.
-    start_function "SML_trySwitch" ([[[state msg] len] p]) => arg_ssp arg_length.
-    prepare_parameters (state msg len p).
+    start_function "SML_trySwitch" ([[[[state msg] len] p] voltage]) => arg_ssp arg_length.
+    prepare_parameters (state msg len p voltage).
     split_blocks ((
       ∅
     )%I : gmap label (iProp Σ)) ((

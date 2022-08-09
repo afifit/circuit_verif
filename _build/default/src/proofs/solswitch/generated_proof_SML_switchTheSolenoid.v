@@ -12,8 +12,8 @@ Section proof_SML_switchTheSolenoid.
     ⊢ typed_function impl_SML_switchTheSolenoid type_of_SML_switchTheSolenoid.
   Proof.
     Open Scope printing_sugar.
-    start_function "SML_switchTheSolenoid" ([[state msg] p]) => arg_ssp.
-    prepare_parameters (state msg p).
+    start_function "SML_switchTheSolenoid" ([[[state msg] p] voltage]) => arg_ssp.
+    prepare_parameters (state msg p voltage).
     split_blocks ((
       ∅
     )%I : gmap label (iProp Σ)) ((

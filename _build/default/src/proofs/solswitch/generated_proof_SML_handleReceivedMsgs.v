@@ -14,8 +14,8 @@ Section proof_SML_handleReceivedMsgs.
     typed_function (impl_SML_handleReceivedMsgs global_SCH_recieveFullMsg global_SML_trySwitch) type_of_SML_handleReceivedMsgs.
   Proof.
     Open Scope printing_sugar.
-    start_function "SML_handleReceivedMsgs" ([[state msg] p]) => arg_ssp local_rxMsgSize.
-    prepare_parameters (state msg p).
+    start_function "SML_handleReceivedMsgs" ([[[state msg] p] voltage]) => arg_ssp local_rxMsgSize.
+    prepare_parameters (state msg p voltage).
     split_blocks ((
       ∅
     )%I : gmap label (iProp Σ)) ((

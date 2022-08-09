@@ -85,4 +85,9 @@ Section spec.
   (* Function [mbstowcs] has been skipped. *)
 
   (* Function [wcstombs] has been skipped. *)
+
+  (* Specifications for function [getSafetyVoltageHoldTime]. *)
+  Definition type_of_getSafetyVoltageHoldTime :=
+    fn(∀ (last_time, current_time) : nat * nat; (last_time @ (int (u16))), (current_time @ (int (u16))); ⌜current_time ≤  last_time -> 65535 - last_time + current_time ≤ 10⌝ ∗ ⌜current_time > last_time -> current_time - last_time ≤ 10⌝)
+      → ∃ t : nat, (t @ (int (u8))); True.
 End spec.

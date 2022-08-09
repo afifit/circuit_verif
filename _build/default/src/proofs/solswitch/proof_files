@@ -1,7 +1,9 @@
 generated_proof_SCH_recieveFullMsg.v
 generated_proof_SML_handleReceivedMsgs.v
+generated_proof_SML_isSafetyVoltageCondExists.v
 generated_proof_SML_switchTheSolenoid.v
 generated_proof_SML_trySwitch.v
+generated_proof_Timer_getCurTime.v
 generated_proof__Exit.v
 generated_proof_abort.v
 generated_proof_abs.v
@@ -17,6 +19,7 @@ generated_proof_calloc.v
 generated_proof_div.v
 generated_proof_exit.v
 generated_proof_free.v
+generated_proof_getSafetyVoltageHoldTime.v
 generated_proof_getenv.v
 generated_proof_labs.v
 generated_proof_ldiv.v

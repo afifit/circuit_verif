@@ -13,6 +13,7 @@ generated_proof_calloc.v
 generated_proof_div.v
 generated_proof_exit.v
 generated_proof_free.v
+generated_proof_getSafetyVoltageHoldTime.v
 generated_proof_getenv.v
 generated_proof_labs.v
 generated_proof_ldiv.v
